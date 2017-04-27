@@ -1,18 +1,16 @@
 <template>
   <div id="app">
     <SideMenu />
-    <MainHeader />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import SideMenu from './components/SideMenu'
-import MainHeader from './components/MainHeader'
+
 export default {
   components: {
-    SideMenu,
-    MainHeader
+    SideMenu
   },
   name: 'app'
 }
@@ -25,9 +23,13 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  height: 100%;
 }
 
+html,
 body {
+  height: 100%;
+  padding: 0;
   margin: 0;
 }
 
@@ -41,7 +43,7 @@ ul, li {
 	padding: 0;
 }
 
-a:visited {
+a, a:visited {
  color: inherit;
 }
 </style>

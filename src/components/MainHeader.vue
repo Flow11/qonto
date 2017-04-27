@@ -13,6 +13,6 @@ export default {
 .header{
   background-color: #E9B235;
   height: 89px;
-  width: 100%
+  width: 100%;
 }
 </style>

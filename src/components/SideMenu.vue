@@ -31,10 +31,13 @@ export default {
 
 <style scoped>
 .container{
-  min-height: 100vh;
+  height: 100%;
   float: left;
   width: 291px;
   background-color: #414851;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+  overflow: hidden;
 }
 
 .title{
